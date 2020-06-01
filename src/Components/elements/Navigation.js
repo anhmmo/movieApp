@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "@reach/router";
-import PropTypes from "prop-types";
+import React from 'react';
+import { Link } from '@reach/router';
+import PropTypes from 'prop-types';
 
-import { StyledNavigation } from "../styles/StyledNavigation";
+import { StyledNavigation } from '../styles/StyledNavigation';
 
 const Navigation = ({ movie }) => (
   <StyledNavigation>
@@ -17,7 +17,7 @@ const Navigation = ({ movie }) => (
 );
 
 Navigation.propTypes = {
-  movie: PropTypes.string
-};
+  movie: PropTypes.string,
+}
 
 export default Navigation;
