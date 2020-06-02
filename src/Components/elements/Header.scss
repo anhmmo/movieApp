@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+.header-section {
+  overflow-x: hidden;
+  min-height: 50px;
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-style: normal;
+  .header__bar {
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+
+    &--nav {
+      width: 20%;
+      position: relative;
+
+      .hidden-xs {
+        font-size: 26px;
+        margin: 26px 10px 0 0;
+      }
+
+      .logo {
+        position: absolute;
+        top: 19.5px;
+        margin-left: 20px;
+      }
+    }
+
+    .search-box {
+      max-width: 60%;
+      width: 100%;
+    }
+
+    .top-user-login {
+      width: 20%;
+    }
+  }
+}
+
+.search-form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+select {
+  border: 0;
+  outline: 0;
+  width: 16.5%;
+  height: 39px;
+  margin: 20px 0 20px 0;
+  border: 1px solid #e3e3e3;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  position: absolute;
+  left: 60px;
+  padding-left: 15px;
+  color: #727272;
+  font-size: 17px;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  width: 58%;
+  height: 35px;
+  margin: 20px 0 20px 0;
+  border: 1px solid #e3e3e3;
+  padding-left: 85px;
+  color: #727272;
+  font-size: 17px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.fa-search {
+  position: absolute;
+  right: 18%;
+  top: 30px;
+  font-size: 18px;
+  color: #727272;
+}
+
+.top-user-login {
+  display: flex;
+  margin-top: 26.5px;
+}
+
+.fa-user {
+  font-size: 20px;
+  color: #f26522;
+}
+
+.top-user-login a {
+  text-decoration: none;
+  color: #f26522;
+  margin-left: 5px;
+}
+
+.hidden-sm {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__bar {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  select {
+    width: 16.5%;
+  }
+
+  input {
+    width: 45%;
+    padding-left: 35px;
+  }
+
+  .fa-search {
+    right: 26%;
+  }
+
+  .header__bar--nav {
+    left: -5%;
+  }
+
+  .hidden-sm {
+    line-height: 14px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hidden-sm {
+    display: none;
+  }
+  .top-user-login {
+    justify-content: flex-end;
+  }
+
+  .search-box {
+    margin-left: 10%;
+  }
+
+  .search-form {
+    justify-content: flex-end;
+  }
+
+  select {
+    width: 19%;
+    left: 50px;
+  }
+
+  input {
+    width: 65%;
+    padding-left: 50px;
+  }
+
+  .fa-search {
+    right: 3%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .search-box {
+    display: none;
+  }
+  .header-section {
+    padding-bottom: 16px;
+  }
+  .top-user-login {
+    margin-left: 190px;
+  }
+}
+.hidden-xs:hover,
+.logo:hover,
+.fa-search:hover {
+  cursor: pointer;
+}
