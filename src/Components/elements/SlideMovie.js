@@ -4,7 +4,7 @@ import "./SlideMovie.scss";
 function SlideMovie(props) {
   return (
     <section className="slider-show">
-      <div className="slider-container">
+      <div style={{ right: "100%" }} className="slider-container">
         <div className="slider-box">
           <img
             className="slider-image"
@@ -13,7 +13,7 @@ function SlideMovie(props) {
           />
           <i class="far fa-play-circle"></i>
           <p className="slider-rating">8/10</p>
-          <h2>Captain Asia: Cricket War(2016)</h2>
+          <h2>Captain Asia: Cricket War (2016)</h2>
           <p className="slider-genres">Action, drama</p>
           <p className="slider-cast">cast: nguyen au</p>
         </div>
@@ -25,7 +25,7 @@ function SlideMovie(props) {
           />
           <i class="far fa-play-circle"></i>
           <p className="slider-rating">8/10</p>
-          <h2>Captain Asia: Cricket War(2016)</h2>
+          <h2>Captain Asia: Cricket War (2016)</h2>
           <p className="slider-genres">Action, drama</p>
           <p className="slider-cast">cast: nguyen au</p>
         </div>
@@ -37,7 +37,7 @@ function SlideMovie(props) {
           />
           <i class="far fa-play-circle"></i>
           <p className="slider-rating">8/10</p>
-          <h2>Captain Asia: Cricket War(2016)</h2>
+          <h2>Captain Asia: Cricket War (2016)</h2>
           <p className="slider-genres">Action, drama</p>
           <p className="slider-cast">cast: nguyen au</p>
         </div>
@@ -49,7 +49,7 @@ function SlideMovie(props) {
           />
           <i class="far fa-play-circle"></i>
           <p className="slider-rating">8/10</p>
-          <h2>Captain Asia: Cricket War(2016)</h2>
+          <h2>Captain Asia: Cricket War (2016)</h2>
           <p className="slider-genres">Action, drama</p>
           <p className="slider-cast">cast: nguyen au</p>
         </div>
@@ -61,7 +61,69 @@ function SlideMovie(props) {
           />
           <i class="far fa-play-circle"></i>
           <p className="slider-rating">8/10</p>
-          <h2>Captain Asia: Cricket War(2016)</h2>
+          <h2>Captain Asia: Cricket War (2016)</h2>
+          <p className="slider-genres">Action, drama</p>
+          <p className="slider-cast">cast: nguyen au</p>
+        </div>
+      </div>
+      <div style={{ left: "0%" }} className="slider-container2">
+        <div className="slider-box">
+          <img
+            className="slider-image"
+            src="http://image.tmdb.org/t/p/w500/y95lQLnuNKdPAzw9F9Ab8kJ80c3.jpg"
+            alt="film"
+          />
+          <i class="far fa-play-circle"></i>
+          <p className="slider-rating">8/10</p>
+          <h2>Captain Asia: Cricket War (2016)</h2>
+          <p className="slider-genres">Action, drama</p>
+          <p className="slider-cast">cast: nguyen au</p>
+        </div>
+        <div className="slider-box">
+          <img
+            className="slider-image"
+            src="http://image.tmdb.org/t/p/w500/33VdppGbeNxICrFUtW2WpGHvfYc.jpg"
+            alt="film"
+          />
+          <i class="far fa-play-circle"></i>
+          <p className="slider-rating">8/10</p>
+          <h2>Captain Asia: Cricket War (2016)</h2>
+          <p className="slider-genres">Action, drama</p>
+          <p className="slider-cast">cast: nguyen au</p>
+        </div>
+        <div className="slider-box">
+          <img
+            className="slider-image"
+            src="http://image.tmdb.org/t/p/w500/xnjvwfDulnOCy8qtYX0iqydmMhk.jpg"
+            alt="film"
+          />
+          <i class="far fa-play-circle"></i>
+          <p className="slider-rating">8/10</p>
+          <h2>Captain Asia: Cricket War (2016)</h2>
+          <p className="slider-genres">Action, drama</p>
+          <p className="slider-cast">cast: nguyen au</p>
+        </div>
+        <div className="slider-box">
+          <img
+            className="slider-image"
+            src="http://image.tmdb.org/t/p/w500/qa6HCwP4Z15l3hpsASz3auugEW6.jpg"
+            alt="film"
+          />
+          <i class="far fa-play-circle"></i>
+          <p className="slider-rating">8/10</p>
+          <h2>Captain Asia: Cricket War (2016)</h2>
+          <p className="slider-genres">Action, drama</p>
+          <p className="slider-cast">cast: nguyen au</p>
+        </div>
+        <div className="slider-box">
+          <img
+            className="slider-image"
+            src="http://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"
+            alt="film"
+          />
+          <i class="far fa-play-circle"></i>
+          <p className="slider-rating">8/10</p>
+          <h2>Captain Asia: Cricket War (2016)</h2>
           <p className="slider-genres">Action, drama</p>
           <p className="slider-cast">cast: nguyen au</p>
         </div>

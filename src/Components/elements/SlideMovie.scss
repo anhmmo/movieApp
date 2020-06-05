@@ -1,13 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
-
 .slider-show {
   overflow-x: hidden;
   font-family: "Open Sans";
   font-weight: 400;
   font-style: normal;
+  position: relative;
 }
 
 .slider-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.slider-container2 {
+  position: relative;
+  top: -64vh;
   width: 100%;
   display: flex;
 }
@@ -21,11 +28,7 @@
 }
 
 .slider-box:hover {
-  background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 0%,
-    rgb(0, 0, 0) 100%
-  );
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
 }
 
 .slider-box > .slider-image {
@@ -46,15 +49,22 @@
 .slider-box > .slider-rating {
   bottom: 25%;
   transition: bottom 0.3s;
+  transition: all 300ms;
 }
 
 .slider-box:hover > .slider-rating {
   bottom: 30%;
 }
 
+.slider-box > .slider-rating::before {
+  content: "\2B50 ";
+  font-size: 20px;
+}
+
 .slider-box > .slider-genres {
   transition: bottom 0.3s;
   bottom: 3%;
+  transition: all 300ms;
 }
 
 .slider-box:hover > .slider-genres {
@@ -65,6 +75,7 @@
 .slider-box > .slider-cast {
   bottom: -10%;
   transition: bottom 0.6s;
+  transition: all 300ms;
 }
 
 .slider-box:hover > .slider-cast {
@@ -75,6 +86,7 @@
 .slider-box > h2 {
   font-size: 22px;
   bottom: 9%;
+  transition: all 300ms;
 }
 
 .slider-box:hover > h2 {
