@@ -4,7 +4,7 @@ import "./SlideMovie.scss";
 function SlideMovie(props) {
   return (
     <section className="slider-show">
-      <div style={{ right: "100%" }} className="slider-container">
+      <div className="slider-container">
         <div className="slider-box">
           <img
             className="slider-image"
@@ -13,7 +13,7 @@ function SlideMovie(props) {
           />
           <i class="far fa-play-circle"></i>
           <p className="slider-rating">8/10</p>
-          <h2>Captain Asia: Cricket War (2016)</h2>
+          <h2>Ad Astra (2017)</h2>
           <p className="slider-genres">Action, drama</p>
           <p className="slider-cast">cast: nguyen au</p>
         </div>
@@ -25,7 +25,7 @@ function SlideMovie(props) {
           />
           <i class="far fa-play-circle"></i>
           <p className="slider-rating">8/10</p>
-          <h2>Captain Asia: Cricket War (2016)</h2>
+          <h2>Sonic the Hedgehogh</h2>
           <p className="slider-genres">Action, drama</p>
           <p className="slider-cast">cast: nguyen au</p>
         </div>
@@ -37,7 +37,7 @@ function SlideMovie(props) {
           />
           <i class="far fa-play-circle"></i>
           <p className="slider-rating">8/10</p>
-          <h2>Captain Asia: Cricket War (2016)</h2>
+          <h2>Survive the Night</h2>
           <p className="slider-genres">Action, drama</p>
           <p className="slider-cast">cast: nguyen au</p>
         </div>
@@ -49,7 +49,7 @@ function SlideMovie(props) {
           />
           <i class="far fa-play-circle"></i>
           <p className="slider-rating">8/10</p>
-          <h2>Captain Asia: Cricket War (2016)</h2>
+          <h2>Scoob!</h2>
           <p className="slider-genres">Action, drama</p>
           <p className="slider-cast">cast: nguyen au</p>
         </div>
@@ -61,45 +61,31 @@ function SlideMovie(props) {
           />
           <i class="far fa-play-circle"></i>
           <p className="slider-rating">8/10</p>
-          <h2>Captain Asia: Cricket War (2016)</h2>
-          <p className="slider-genres">Action, drama</p>
-          <p className="slider-cast">cast: nguyen au</p>
-        </div>
-      </div>
-      <div style={{ left: "0%" }} className="slider-container2">
-        <div className="slider-box">
-          <img
-            className="slider-image"
-            src="http://image.tmdb.org/t/p/w500/y95lQLnuNKdPAzw9F9Ab8kJ80c3.jpg"
-            alt="film"
-          />
-          <i class="far fa-play-circle"></i>
-          <p className="slider-rating">8/10</p>
-          <h2>Captain Asia: Cricket War (2016)</h2>
+          <h2>Bloodshot</h2>
           <p className="slider-genres">Action, drama</p>
           <p className="slider-cast">cast: nguyen au</p>
         </div>
         <div className="slider-box">
           <img
             className="slider-image"
-            src="http://image.tmdb.org/t/p/w500/33VdppGbeNxICrFUtW2WpGHvfYc.jpg"
+            src="http://image.tmdb.org/t/p/w500/avl9MEQhtvokNnzoWepkmHBZ2ss.jpg"
             alt="film"
           />
           <i class="far fa-play-circle"></i>
           <p className="slider-rating">8/10</p>
-          <h2>Captain Asia: Cricket War (2016)</h2>
+          <h2>Bloodshot</h2>
           <p className="slider-genres">Action, drama</p>
           <p className="slider-cast">cast: nguyen au</p>
         </div>
         <div className="slider-box">
           <img
             className="slider-image"
-            src="http://image.tmdb.org/t/p/w500/xnjvwfDulnOCy8qtYX0iqydmMhk.jpg"
+            src="http://image.tmdb.org/t/p/w500/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg"
             alt="film"
           />
           <i class="far fa-play-circle"></i>
           <p className="slider-rating">8/10</p>
-          <h2>Captain Asia: Cricket War (2016)</h2>
+          <h2>Bloodshot</h2>
           <p className="slider-genres">Action, drama</p>
           <p className="slider-cast">cast: nguyen au</p>
         </div>
@@ -111,19 +97,151 @@ function SlideMovie(props) {
           />
           <i class="far fa-play-circle"></i>
           <p className="slider-rating">8/10</p>
-          <h2>Captain Asia: Cricket War (2016)</h2>
+          <h2>Bloodshot</h2>
           <p className="slider-genres">Action, drama</p>
           <p className="slider-cast">cast: nguyen au</p>
         </div>
         <div className="slider-box">
           <img
             className="slider-image"
-            src="http://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"
+            src="http://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg"
             alt="film"
           />
           <i class="far fa-play-circle"></i>
           <p className="slider-rating">8/10</p>
-          <h2>Captain Asia: Cricket War (2016)</h2>
+          <h2>Bloodshot</h2>
+          <p className="slider-genres">Action, drama</p>
+          <p className="slider-cast">cast: nguyen au</p>
+        </div>
+        <div className="slider-box">
+          <img
+            className="slider-image"
+            src="http://image.tmdb.org/t/p/w500/y95lQLnuNKdPAzw9F9Ab8kJ80c3.jpg"
+            alt="film"
+          />
+          <i class="far fa-play-circle"></i>
+          <p className="slider-rating">8/10</p>
+          <h2>Bloodshot</h2>
+          <p className="slider-genres">Action, drama</p>
+          <p className="slider-cast">cast: nguyen au</p>
+        </div>
+        <div className="slider-box">
+          <img
+            className="slider-image"
+            src="http://image.tmdb.org/t/p/w500/avl9MEQhtvokNnzoWepkmHBZ2ss.jpg"
+            alt="film"
+          />
+          <i class="far fa-play-circle"></i>
+          <p className="slider-rating">8/10</p>
+          <h2>Bloodshot</h2>
+          <p className="slider-genres">Action, drama</p>
+          <p className="slider-cast">cast: nguyen au</p>
+        </div>
+        <div className="slider-box">
+          <img
+            className="slider-image"
+            src="http://image.tmdb.org/t/p/w500/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg"
+            alt="film"
+          />
+          <i class="far fa-play-circle"></i>
+          <p className="slider-rating">8/10</p>
+          <h2>Bloodshot</h2>
+          <p className="slider-genres">Action, drama</p>
+          <p className="slider-cast">cast: nguyen au</p>
+        </div>
+        <div className="slider-box">
+          <img
+            className="slider-image"
+            src="http://image.tmdb.org/t/p/w500/qa6HCwP4Z15l3hpsASz3auugEW6.jpg"
+            alt="film"
+          />
+          <i class="far fa-play-circle"></i>
+          <p className="slider-rating">8/10</p>
+          <h2>Bloodshot</h2>
+          <p className="slider-genres">Action, drama</p>
+          <p className="slider-cast">cast: nguyen au</p>
+        </div>
+        <div className="slider-box">
+          <img
+            className="slider-image"
+            src="http://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg"
+            alt="film"
+          />
+          <i class="far fa-play-circle"></i>
+          <p className="slider-rating">8/10</p>
+          <h2>Bloodshot</h2>
+          <p className="slider-genres">Action, drama</p>
+          <p className="slider-cast">cast: nguyen au</p>
+        </div>
+        <div className="slider-box">
+          <img
+            className="slider-image"
+            src="http://image.tmdb.org/t/p/w500/y95lQLnuNKdPAzw9F9Ab8kJ80c3.jpg"
+            alt="film"
+          />
+          <i class="far fa-play-circle"></i>
+          <p className="slider-rating">8/10</p>
+          <h2>Bloodshot</h2>
+          <p className="slider-genres">Action, drama</p>
+          <p className="slider-cast">cast: nguyen au</p>
+        </div>
+        <div className="slider-box">
+          <img
+            className="slider-image"
+            src="http://image.tmdb.org/t/p/w500/avl9MEQhtvokNnzoWepkmHBZ2ss.jpg"
+            alt="film"
+          />
+          <i class="far fa-play-circle"></i>
+          <p className="slider-rating">8/10</p>
+          <h2>Bloodshot</h2>
+          <p className="slider-genres">Action, drama</p>
+          <p className="slider-cast">cast: nguyen au</p>
+        </div>
+        <div className="slider-box">
+          <img
+            className="slider-image"
+            src="http://image.tmdb.org/t/p/w500/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg"
+            alt="film"
+          />
+          <i class="far fa-play-circle"></i>
+          <p className="slider-rating">8/10</p>
+          <h2>Bloodshot</h2>
+          <p className="slider-genres">Action, drama</p>
+          <p className="slider-cast">cast: nguyen au</p>
+        </div>
+        <div className="slider-box">
+          <img
+            className="slider-image"
+            src="http://image.tmdb.org/t/p/w500/qa6HCwP4Z15l3hpsASz3auugEW6.jpg"
+            alt="film"
+          />
+          <i class="far fa-play-circle"></i>
+          <p className="slider-rating">8/10</p>
+          <h2>Bloodshot</h2>
+          <p className="slider-genres">Action, drama</p>
+          <p className="slider-cast">cast: nguyen au</p>
+        </div>
+        <div className="slider-box">
+          <img
+            className="slider-image"
+            src="http://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg"
+            alt="film"
+          />
+          <i class="far fa-play-circle"></i>
+          <p className="slider-rating">8/10</p>
+          <h2>Bloodshot</h2>
+          <p className="slider-genres">Action, drama</p>
+          <p className="slider-cast">cast: nguyen au</p>
+        </div>
+        <div className="slider-box">
+          <img
+            className="slider-image"
+            src="http://image.tmdb.org/t/p/w500/y95lQLnuNKdPAzw9F9Ab8kJ80c3.jpg"
+            alt="film"
+          />
+          <i class="far fa-play-circle"></i>
+          <p className="slider-rating">8/10</p>
+          <h2>Bloodshot</h2>
           <p className="slider-genres">Action, drama</p>
           <p className="slider-cast">cast: nguyen au</p>
         </div>
