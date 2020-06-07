@@ -54,7 +54,8 @@ const Home = () => {
   return (
     <>
       {!searchTerm && <div></div>}
-      <SlideMovie />
+      <SlideMovie movie={movies} />
+
       <Grid header={searchTerm ? "Search Result" : "Popular Movies"}>
         {movies.map((movie) => (
           <MovieThumb
