@@ -50,7 +50,7 @@ const Home = () => {
 
   if (error) return <div>Something went wrong ...</div>;
   if (!movies[0]) return <Spinner />;
-
+  console.log(movies);
   return (
     <>
       {!searchTerm && <div></div>}
@@ -66,8 +66,7 @@ const Home = () => {
                 ? IMAGE_BASE_URL + POSTER_SIZE + movie.poster_path
                 : NoImage
             }
-            movieId={movie.id}
-            movieName={movie.original_title}
+            movie={movie}
           />
         ))}
       </Grid>
