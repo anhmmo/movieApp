@@ -15,65 +15,113 @@ export const StyledGrid = styled.div`
 
   .film-option-box {
     width: 50vw;
-    margin: 50px auto;
-    position: relative;
-    height: 115px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .option-container {
+    display: flex;
+    width: 100%;
   }
   .description-title {
-    padding: 14px;
-    width: 80%;
-    margin-left: 4%;
+    z-index: 3;
+
+    padding: 8px;
+    width: 85%;
     border-top-right-radius: 38px;
     border-bottom-left-radius: 38px;
-    position: absolute;
-    font-size: 28px;
+    box-shadow: 0px 3px 3px tomato;
+    -webkit-box-shadow: 0px 3px 3px tomato;
+
+    color: #494c62;
     background-color: white;
-    box-shadow: 2px 5px 3px tomato;
-    -webkit-box-shadow: 2px 5px 3px tomato;
-    color: black;
-    text-transform: uppercase;
+
+    font-family: "Balsamiq Sans", cursive;
     letter-spacing: 2px;
-    z-index: 3;
     text-align: center;
-    text-shadow: 1px 1px 4px #000000;
+    text-shadow: 1px 1px 2px #000000;
+    font-weight: 800;
+    font-size: 30px;
   }
 
   .description-icon {
-    position: absolute;
+    z-index: 3;
+
     width: 3.5%;
-    background-color: #ff415b;
-    box-shadow: 2px 5px 3px #d40e1a;
-    -webkit-box-shadow: 2px 5px 3px #d40e1a;
-    right: 25px;
-    padding: 18.5px;
+    padding: 15px;
+    box-shadow: 0px 3px 3px #f26522;
+    -webkit-box-shadow: 0px 3px 3px #f26522;
     border-bottom-right-radius: 30px;
     border-top-left-radius: 30px;
+
+    background-color: tomato;
   }
 
   .description-icon i {
     text-align: center;
     color: white;
-    font-size: 24px;
+    font-size: 22px;
   }
   .filter-menu {
     display: flex;
-    position: absolute;
-    bottom: -5px;
-    background-color: white;
-    width: 70%;
-    margin-left: 10%;
-    padding: 13px;
-    border-bottom-left-radius: 30px;
+    width: 80%;
+    padding: 13px 0;
   }
-  .filter-menu > div {
-    margin-left: 20px;
-    width: 20%;
-    background-color: #ff415b;
-    box-shadow: 2px 5px 3px #d40e1a;
-    -webkit-box-shadow: 2px 5px 3px #d40e1a;
-    text-align: center;
+  .filter-menu > span {
+    padding: 5px 8px;
+    border-bottom: 2px solid tomato;
+    margin-left: 5%;
+
+    font-family: "Balsamiq Sans", cursive;
+    font-size: 20px;
+
+    color: #494c62;
+
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+
+  .filter-menu > span:hover {
+    background-color: tomato;
     color: white;
-    padding: 8px;
+    transform: translateY(-2px);
+    border-radius: 5px;
+  }
+
+  @media screen and (max-width: 960px) {
+    .film-option-box {
+      width: 90vw;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .filter-menu {
+      width: 100%;
+    }
+
+    .filter-menu > span:not(:first-child) {
+      margin-left: 4%;
+    }
+  }
+  @media screen and (max-width: 440px) {
+    .filter-menu {
+      width: 90%;
+      margin-left: 5%;
+    }
+    .filter-menu > span {
+      font-size: 18px;
+      padding: 5px 4px;
+    }
+    .filter-menu > span:not(:first-child) {
+      margin-left: 2%;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .filter-menu {
+      width: 100%;
+    }
   }
 `;
 
