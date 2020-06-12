@@ -9,7 +9,7 @@ const Grid = ({ header, children }) => (
       <div className="option-container">
         <div className="description-title">{header}</div>
         <div className="description-icon">
-          <i class="fab fa-hotjar"></i>
+          <i className="fab fa-hotjar"></i>
         </div>
       </div>
       <div className="filter-menu">
