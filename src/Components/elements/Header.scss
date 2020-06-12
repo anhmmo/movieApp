@@ -2,11 +2,15 @@
 
 .header-section {
   overflow-x: hidden;
+
   min-height: 50px;
+
+  background-color: rgb(255, 255, 255) !important;
+
   font-family: "Open Sans";
   font-weight: 300;
   font-style: normal;
-  background-color: rgb(255, 255, 255) !important;
+
   .header__bar {
     width: 80%;
     display: flex;
