@@ -4,8 +4,9 @@ export const StyledMovieThumb = styled.div`
   img {
     width: 100%;
     height: 80%;
-    transition: all 0.3s;
     object-fit: cover;
+
+    transition: all 0.3s;
     animation: animateMovieThumb 0.5s;
 
     :hover {
@@ -28,27 +29,36 @@ export const StyledMovieThumb = styled.div`
 
   .content-box {
     position: relative;
-    background-color: white;
+
     padding: 10px;
     margin-top: -10px;
     height: 40px;
+
+    background-color: white;
+
     font-family: "Source Sans Pro", sans-serif;
   }
 
   .title {
     position: absolute;
+    top: 6px;
+
     display: block;
+
     color: #494c62;
+
     font-size: 21px;
     font-weight: 700;
-    top: 6px;
   }
 
   .genre {
     position: absolute;
-    display: block;
     bottom: 8px;
+
+    display: block;
+
     color: #babbc3;
+
     font-size: 15px;
   }
 
@@ -56,11 +66,13 @@ export const StyledMovieThumb = styled.div`
     position: absolute;
     top: -28px;
     right: 0;
-    color: #ff0079;
+    z-index: 2;
+
     padding: 3px 8px;
     border: 1.2px solid #ff0079;
     border-radius: 3px;
+
+    color: #ff0079;
     background-color: white;
-    z-index: 2;
   }
 `;
