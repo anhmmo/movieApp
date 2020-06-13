@@ -13,11 +13,17 @@ const Grid = ({ header, children }) => (
         </div>
       </div>
       <div className="filter-menu">
-        <span>name</span>
-        <span>year</span>
-        <span>genre</span>
-        <span>actor</span>
-        <span>cast</span>
+        {header === "Actors" ? (
+          <></>
+        ) : (
+          <>
+            <span>name</span>
+            <span>year</span>
+            <span>genre</span>
+            <span>actor</span>
+            <span>cast</span>
+          </>
+        )}
       </div>
     </div>
     {/* <h1>{header}</h1>*/}
