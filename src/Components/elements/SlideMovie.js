@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./SlideMovie.scss";
+import { Link } from "@reach/router";
 
 function SlideMovie({ movie }) {
   const [moviesList, setMoviesList] = useState(movie);
@@ -60,6 +61,7 @@ function SlideMovie({ movie }) {
               src={"http://image.tmdb.org/t/p/w500" + film.poster_path}
               alt="film"
             />
+
             <i className="far fa-play-circle"></i>
             <p className="slider-rating">{film.vote_average}/10</p>
             <h2
@@ -70,12 +72,12 @@ function SlideMovie({ movie }) {
               }
             >
               {film.title.length > 23 ? (
-                <>
+                <Link to={"/" + film.id}>
                   {film.title.slice(0, film.title.indexOf(" ", 15))} <br />{" "}
                   {film.title.slice(film.title.indexOf(" ", 15))}
-                </>
+                </Link>
               ) : (
-                film.title
+                <Link to={"/" + film.id}> {film.title} </Link>
               )}
             </h2>
             <p className="slider-genres">Action, drama </p>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.scss";
+import { Link } from "@reach/router";
 
 // 1. Learn how to create a styled basic styled component
 // 2. Learn how to handle props in styled component
@@ -10,11 +11,13 @@ const Header = () => (
     <div className="header__bar">
       <div className="header__bar--nav">
         <i className="fa fa-bars hidden-xs"></i>
-        <img
-          className="logo"
-          src="https://demo.themeum.com/wordpress/moview/wp-content/themes/moview/images/logo.png"
-          alt="logo"
-        />
+        <Link to="/">
+          <img
+            className="logo"
+            src="https://demo.themeum.com/wordpress/moview/wp-content/themes/moview/images/logo.png"
+            alt="logo"
+          />
+        </Link>
       </div>
       <div className="search-box">
         <form className="search-form">
