@@ -62,7 +62,10 @@ function SlideMovie({ movie }) {
               alt="film"
             />
 
-            <i className="far fa-play-circle"></i>
+            <a href="#ff" class="icon-video">
+              <span class="ion-ios-play"></span>
+              <span class="ion-ios-play2"></span>
+            </a>
             <p className="slider-rating">{film.vote_average}/10</p>
             <h2
               style={
