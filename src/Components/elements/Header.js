@@ -22,9 +22,9 @@ const Header = () => (
       <div className="search-box">
         <form className="search-form">
           <select className="search-option">
-            <option value="sdgsg">Movies</option>
-            <option value="sdgsg">Actor</option>
-            <option value="sdgsg">Sescriptor</option>
+            <option value="movies">Movies</option>
+            <option value="actor">Actor</option>
+            <option value="Other">Sescriptor</option>
           </select>
           <input type="text" className="search-field" />
           <i className="fas fa-search"></i>
